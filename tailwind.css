@@ -17,4 +17,39 @@
         background-size: cover;
         background-position: center;
     }
+    /* .bloom{background-image: url('./assets/deal-bloom.png'),
+        linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-size: cover;
+        background-position: center;
+    height: 550px;} */
+    .overlay-background-1 {
+  width: 100%;
+  height: 206px;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* dark overlay */
+    url('./assets/deal-bloom.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
+    .overlay-background-2 {
+  width: 100%;
+  height: 206px;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* dark overlay */
+    url('./assets/deal-ana.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
+    .overlay-background-3 {
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* dark overlay */
+    url('./assets/deal-zabo.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
 }
