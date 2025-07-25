@@ -11,4 +11,10 @@
     }
     .orange{color: rgb(233, 90, 8);}
     .gray{color: rgba(0, 0, 0, 0.5);}
+    .hero{
+        /* height: 533px; */
+        background-image: url('./assets/news-letter-bg.png');
+        background-size: cover;
+        background-position: center;
+    }
 }
